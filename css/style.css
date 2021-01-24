@@ -1,0 +1,97 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*width: 100%;*/
+    height: 100px;
+    padding: 20px;
+    border-bottom: 2px solid #B9B6B6;
+}
+.nav-item{
+    display: inline-flex;
+    text-align: left;
+    margin-right: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+#logo{
+    margin-left: 30px
+}
+
+section,footer{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+#flex-container2 {
+    display: flex;
+    padding: 20px 0px;
+}
+#top-section{
+    display:flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+#erica{
+    display: flex;
+    margin-right: 50px;
+}
+
+#flex-container3 {
+display: flex;
+align-items: start;
+}
+
+.smallgraybox{
+    display: flex;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 35px;
+    margin: 30px;
+    min-height: 300px;
+}
+
+h1{
+    font-family: 'Shorelines Script Bold', cursive;  
+    font-size: 400%;
+    color: #3caea3;
+}
+
+h2{
+    display: flex;
+    font-family: "Roboto", sans-serif;  
+    text-align: flex-start;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;   
+}
+
+p{
+    font-family: "Roboto", sans-serif; 
+}
+
+.designboxes{
+    display: flex;
+    }
+
+.designbackground{
+    background-image: url(../images/make_a_wish_devices.png);
+    background-repeat: no-repeat;
+    background-position-x: -80px;
+    background-position-y: 43px;
+    margin-left: 50px;
+}
+
+.gray-outlinedbox{
+border: thin solid #B9B6B6;
+padding: 30px;
+border-radius: 10px;
+width: 50%;
+}
